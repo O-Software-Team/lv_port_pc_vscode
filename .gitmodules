@@ -4,3 +4,7 @@
 [submodule "lvgl"]
 	path = lvgl
 	url = https://github.com/lvgl/lvgl.git
+[submodule "oserver_gui"]
+	path = oserver_gui
+	url = https://github.com/O-Software-Team/oserver_gui.git
+	branch = master
