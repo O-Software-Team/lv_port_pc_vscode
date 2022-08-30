@@ -8,7 +8,8 @@
 		"files.associations": {
 			"cstdio": "cpp",
 			"cstdarg": "cpp",
-			"menu_cb.h": "c"
+			"menu_cb.h": "c",
+			"stdio.h": "c"
 		},
 		"search.exclude": {
 			"**/.*": true,
