@@ -9,7 +9,8 @@
 			"cstdio": "cpp",
 			"cstdarg": "cpp",
 			"menu_cb.h": "c",
-			"stdio.h": "c"
+			"stdio.h": "c",
+			"menu_handler.h": "c"
 		},
 		"search.exclude": {
 			"**/.*": true,
