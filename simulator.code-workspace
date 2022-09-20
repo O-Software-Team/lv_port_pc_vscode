@@ -10,7 +10,13 @@
 			"cstdarg": "cpp",
 			"menu_cb.h": "c",
 			"stdio.h": "c",
-			"menu_handler.h": "c"
+			"menu_handler.h": "c",
+			"array": "c",
+			"deque": "c",
+			"list": "c",
+			"vector": "c",
+			"string_view": "c",
+			"ranges": "c"
 		},
 		"search.exclude": {
 			"**/.*": true,
