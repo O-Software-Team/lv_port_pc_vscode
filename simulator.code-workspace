@@ -16,7 +16,8 @@
 			"list": "c",
 			"vector": "c",
 			"string_view": "c",
-			"ranges": "c"
+			"ranges": "c",
+			"system_error": "c"
 		},
 		"search.exclude": {
 			"**/.*": true,
