@@ -18,6 +18,7 @@
 			"string_view": "c",
 			"ranges": "c",
 			"system_error": "c"
+			"oserver_gui_demo.h": "c"
 		},
 		"search.exclude": {
 			"**/.*": true,
