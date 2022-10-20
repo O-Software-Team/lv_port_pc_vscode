@@ -17,7 +17,11 @@
 			"vector": "c",
 			"string_view": "c",
 			"ranges": "c",
+<<<<<<< HEAD
 			"system_error": "c",
+=======
+			"system_error": "c"
+>>>>>>> db1d881ce1589073a302270b7646346cb64eb013
 			"oserver_gui_demo.h": "c"
 		},
 		"search.exclude": {

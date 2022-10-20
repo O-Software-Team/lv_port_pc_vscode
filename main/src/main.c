@@ -31,6 +31,9 @@
  *  STATIC PROTOTYPES
  **********************/
 static void hal_init(void);
+static void main_menu_init(void);
+static void oserver_gui(void);
+
 static int tick_thread(void *data);
 
 /**********************
