@@ -12,3 +12,4 @@ ui/
 .vscode/dryrun.log
 .vscode/targets.log
 !.vscode/*
+.vscode/launch.json
