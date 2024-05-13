@@ -24,6 +24,7 @@
 			"**/.*": true,
 			"build": true
 		},
-		"search.useIgnoreFiles": false
+		"search.useIgnoreFiles": false,
+		"cmake.options.statusBarVisibility": "visible"
 	}
 }
