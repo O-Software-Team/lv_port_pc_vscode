@@ -5,11 +5,11 @@
 #
 PROJECT 			?= lvgl-sdl
 MAKEFLAGS 			:= -j $(shell nproc)
-SRC_EXT      			:= c
-CXXSRC_EXT      		:= cpp
+SRC_EXT      		:= c
+CXXSRC_EXT      	:= cpp
 OBJ_EXT				:= o
-CC 				?= gcc
-CXX				?= g++
+CC 					?= gcc
+CXX					?= g++
 
 SRC_DIR				:= ./
 WORKING_DIR			:= ./build
@@ -49,8 +49,8 @@ CXXCOMPILE			= $(CXX) $(CXXFLAGS) $(INC) $(DEFINES)
 C_SOURCES 			:= $(shell find $(SRC_DIR) -type f -name '*.c' -not -path '*/\.*')
 CXX_SOURCES			:= $(shell find $(SRC_DIR) -type f -name '*.cpp' -not -path '*/\.*')
 
-C_OBJECTS    			:= $(patsubst $(SRC_DIR)%,$(BUILD_DIR)/%,$(C_SOURCES:.$(SRC_EXT)=.$(OBJ_EXT)))
-CXX_OBJECTS    			:= $(patsubst $(SRC_DIR)%,$(BUILD_DIR)/%,$(CXX_SOURCES:.$(CXXSRC_EXT)=.$(OBJ_EXT)))
+C_OBJECTS    		:= $(patsubst $(SRC_DIR)%,$(BUILD_DIR)/%,$(C_SOURCES:.$(SRC_EXT)=.$(OBJ_EXT)))
+CXX_OBJECTS    		:= $(patsubst $(SRC_DIR)%,$(BUILD_DIR)/%,$(CXX_SOURCES:.$(CXXSRC_EXT)=.$(OBJ_EXT)))
 
 all: default
 
