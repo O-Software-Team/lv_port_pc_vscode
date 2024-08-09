@@ -31,8 +31,6 @@
  *  STATIC PROTOTYPES
  **********************/
 static void hal_init(void);
-static void main_menu_init(void);
-static void oserver_gui(void);
 
 static int tick_thread(void *data);
 
@@ -83,14 +81,9 @@ int main(int argc, char **argv)
 
   /*Initialize the HAL (display, input devices, tick) for LVGL*/
   hal_init();
-
   display_boot_screen();
 
-  main_menu_init();
-
-  display_home_screen();
   // Start the Menu
-  //oserver_gui();
   while(1) {
     /* Periodically call the lv_task handler.
      * It could be done in a timer interrupt or an OS task too.*/
